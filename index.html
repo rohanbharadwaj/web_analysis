@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>Web Page load analysis</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,13 +44,13 @@
                 <a href="#top" onclick = $("#menu-close").click(); >Home</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+                <a href="#data" onclick = $("#menu-close").click(); >data</a>
             </li>
             <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Services</a>
+                <a href="#results" onclick = $("#menu-close").click(); >Results</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
+                <a href="#team" onclick = $("#menu-close").click(); >Team
             </li>
             <li>
                 <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
@@ -61,20 +61,45 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
+            <h3>Effect of HTTP/DNS cache</h3>
+            <h3>on page load time on Desktop and mobile.</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <a href="#data" class="btn btn-dark btn-lg">Analysis</a>
         </div>
     </header>
 
-    <!-- About -->
-    <section id="about" class="about">
+    <!-- data -->
+    <section id="data" class="data">
+        
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                     <h2>Data Set</h2>
+                     <hr class="large">
+                         <div class="panel panel-default">
+                          <!-- Default panel contents -->
+                          <!-- <div class="panel-heading">Data Set</div> -->
+                          <!-- <div class="panel-body"> -->
+                           <!--  <p>...</p> -->
+                          <!-- </div> -->
+                          <table class="table table-striped">
+                          <tr>
+                            <td>Top 200 Websites from Alexa</td>
+                        </tr>
+                          <tr><td>Content heavy</td></tr>  
+                          <tr><td>Java Script heavy</td></tr>  
+                          <tr><td>Websites hosted on private webserver</td></tr>    
+                          </table>
+
+                          <!-- List group -->
+                         <!--  <ul class="list-group">
+                            <li class="list-group-item">Top 200 Websites from Alexa</li>
+                            <li class="list-group-item">Content heavy</li>
+                            <li class="list-group-item">Java Script heavy</li>
+                            <li class="list-group-item">Websites hosted on private webserver</li>
+                            <!-- <li class="list-group-item">Vestibulum at eros</li> -->
+                          <!-- </ul> --> 
+                        </div>
                 </div>
             </div>
             <!-- /.row -->
@@ -84,67 +109,62 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="results" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+                    <h2>Results</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h3 class="panel-title">Download Time vs Day</h3>
+                              </div>
+                              <div class="panel-body">
+                               <img src="img/img1.jpg" class="img-responsive" alt="Responsive image">
+                               <pre>
+             Graph shows how download time decreases with cache.
+                               </pre>
+                              </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
+                        
                     </div>
                     <!-- /.row (nested) -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h3 class="panel-title">Computation Time vs Day</h3>
+                              </div>
+                              <div class="panel-body">
+                               <img src="img/img2.jpg" class="img-responsive" alt="Responsive image">
+                              <!--  <pre>
+             
+                               </pre> -->
+                              </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h3 class="panel-title">DNS Time vs Day</h3>
+                              </div>
+                              <div class="panel-body">
+                               <img src="img/img3.jpg" class="img-responsive" alt="Responsive image">
+                              <!--  <pre>
+             
+                               </pre> -->
+                              </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -154,13 +174,13 @@
     </section>
 
     <!-- Callout -->
-    <aside class="callout">
+   <!--  <aside class="callout">
         <div class="text-vertical-center">
             <h1>Vertically Centered Text</h1>
         </div>
-    </aside>
+    </aside> -->
 
-    <!-- Portfolio -->
+    <!-- Portfolio 
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
@@ -196,18 +216,18 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
+                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+                <!-- </div> -->
                 <!-- /.col-lg-10 -->
-            </div>
+            <!-- </div> -->
             <!-- /.row -->
-        </div>
+        <!-- </div> -->
         <!-- /.container -->
-    </section>
+    <!-- </section> -->
 
-    <!-- Call to Action -->
+    <!-- Call to Action 
     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
@@ -218,9 +238,9 @@
                 </div>
             </div>
         </div>
-    </aside>
+    </aside>-->
 
-    <!-- Map -->
+    <!-- Map 
     <section id="contact" class="map">
         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
         <br />
@@ -229,8 +249,27 @@
         </small>
         </iframe>
     </section>
+-->
+ <section id="team" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Team</h2>
+                     <ul class="list-unstyled">
+                        <li>Rohan Bharadwaj</li>
+                         <i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">rbharadwaj@cs.stonybrook.edu</a>
+                        <li>Ankush Aggarwal</li>
+                        <i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">ankush.aggarwal@stonybrook.edu</a>
+                        
+                    </ul>
+                  </div>
+                  </div>
+              </div>
+          </section>
 
-    <!-- Footer -->
+
+
+    <!-- Footer
     <footer>
         <div class="container">
             <div class="row">
@@ -260,7 +299,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
