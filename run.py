@@ -46,8 +46,10 @@ for run_no in range(5):
     os.system("mv logs_pro data/wprof_300_5_pro_1")
     print "running analyze.pl"
     a = input('Do you want to continue : ')
+    # at this point, run perl analyze.pl manually in other terminal
+    # when analyze finishes, enter 'y' here
     if(a=="y"):
-        os.system("perl analyze.pl")
+        # os.system("perl analyze.pl")  
         # command = Command("perl analyze.pl")
         # command.run(timeout=30)
         print "removing temp files"
